@@ -53,7 +53,5 @@ public class CheckBoxesTest {
         Assert.assertEquals(expectedResult_2, actualResult_2);
 
         driver.quit();
-
-
     }
 }

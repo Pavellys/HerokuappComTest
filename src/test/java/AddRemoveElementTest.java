@@ -43,6 +43,5 @@ public class AddRemoveElementTest {
         Assert.assertEquals(expectedResultDeleteElement, actualResultDelete);
 
         driver.quit();
-
     }
 }

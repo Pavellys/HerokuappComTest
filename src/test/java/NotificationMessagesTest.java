@@ -35,6 +35,6 @@ public class NotificationMessagesTest {
         else if(expectedResult_2.equals(actualResult)){
             Assert.assertEquals(actualResult, expectedResult_1, "Message doesn't match");
         }
-
+        driver.quit();
     }
 }

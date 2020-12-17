@@ -18,8 +18,6 @@ public class TyposTest {
     String typosURL = "http://the-internet.herokuapp.com/typos";
     String expectedResult = "Sometimes you'll see a typo, other times you won,t.";
     String bug = "Misspelling of the paragraph";
-
-
     @Test
     public void typosTest() {
         System.setProperty(property, getPath);
@@ -33,9 +31,6 @@ public class TyposTest {
         String actualResult = textList.get(1).getText();
         //Compare expected result and actual
         Assert.assertEquals(bug,expectedResult, actualResult);
-
         driver.quit();
-
-
     }
 }

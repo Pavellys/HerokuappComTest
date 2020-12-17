@@ -32,9 +32,7 @@ public class HoversTest {
         String actualResult = driver.findElement(By.xpath("//h1")).getText();
         //Compare expected result ans actual
         Assert.assertEquals("not the correct result", expectedResult, actualResult);
-
         driver.quit();
-
     }
 
     @Test
@@ -54,7 +52,6 @@ public class HoversTest {
         String actualResult = driver.findElement(By.xpath("//h1")).getText();
         //Compare expected result ans actual
         Assert.assertEquals("not the correct result", expectedResult, actualResult);
-
         driver.quit();
     }
     @Test
@@ -74,7 +71,6 @@ public class HoversTest {
         String actualResult = driver.findElement(By.xpath("//h1")).getText();
         //Compare expected result ans actual
         Assert.assertEquals("not the correct result", expectedResult, actualResult);
-
         driver.quit();
     }
 }

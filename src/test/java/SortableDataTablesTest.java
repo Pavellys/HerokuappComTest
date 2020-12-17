@@ -17,7 +17,6 @@ public class SortableDataTablesTest {
     String expectedResult_3 = "Bach";
     String expectedResult_4 = "Jason";
     String expectedResult_5 = "http://www.jdoe.com";
-
     @Test
     public void tablesTest(){
         System.setProperty(property, getProperty);
@@ -39,6 +38,5 @@ public class SortableDataTablesTest {
         Assert.assertEquals(expectedResult_5, actualResult_5);
 
         driver.quit();
-
     }
 }
